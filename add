@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <link rel="shotcut icon" type="image/x-icon"href="img/favicon.ico">
+   <style>
+     * {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+body{
+    background-color: #f6f6f6;
+    color: #666;
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+/*头部开始*/
+.head-wp {
+    width:100%;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+}
+.head {
+    width: 1190px;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 30px;
+    color: #999999;
+}
+.head-left{
+    float: left;
+    margin-left:200px; 
+}
+.head-right{
+    float: right;
+}
+.head-right>ul>li{
+    float: left;
+    padding:  0px 15px;
+    position: relative;
+}
+.head-right>ul>li.arrow-wp 
+{
+    padding-right:20px;
+
+
+}
+.head-right>ul>li:hover {
+    color: #c81623; 
+    cursor: pointer;
+}
+.head-right>ul>li:hover .red-txt{
+    color: #c81623;
+    cursor: pointer;
+}
+.head-right>ul>li::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    right: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #cccccc;
+    margin-top: -5px;
+}
+.head-right>ul>li.last-item::after {
+    content: "";
+   position: static;
+}
+.red-txt {
+    color: red;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border:5px solid transparent;
+    border-top-color:#999;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top:-1px; 
+}
+.arrow-top{
+    border-top-color:#e3e4e5;
+    margin-top: -2px;
+    z-index: 3;
+}
+   </style>
+</head>
+<body>
+    <div class="head-wp">
+    <div class="head">
+        <div class="head-left">
+            <img src="img/location.png.png" width="14px" height="15px" >
+           <span>北京</span>
+        </div>
+        <div class="head-right">
+            <ul>
+                <li>
+                    <span>你好。请登录</span>
+                    <span class="red-txt">免费注册</span>
+                </li>
+                <li>
+                    我的订单
+                </li>
+                <li class="arrow-wp">
+                    我的京东
+                    <span class="arrow arrow-top"></span>
+                    <span class="arrow arro-bottom"></span>
+                </li>
+                <li>
+                    京东会员
+                </li>
+                <li>
+                    企业采购
+                </li>
+                <li class="arrow-wp">
+                    客户服务
+                    <span class="arrow arrow-top"></span>
+                    <span class="arrow arro-bottom"></span>
+                  
+                </li>
+                <li class="arrow-wp">
+                    网站导航
+                    <span class="arrow arrow-top"></span>
+                    <span class="arrow arro-bottom"></span>
+                </li>
+                <li class="last-item">
+                    <span>手机京东</span>
+                    <div class="erwm"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
